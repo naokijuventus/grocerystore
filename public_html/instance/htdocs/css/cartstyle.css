@@ -1,0 +1,122 @@
+body {
+	padding:0px;
+	margin:0px;
+	font:14px/2 "メイリオ",Verdana,"Hiragino Kaku Gothic ProN","游ゴシック",YuGothic,Meiryo,sans-serif;
+	color:#333;
+}
+
+.msg {
+	padding:10px;
+	margin:10px;
+	color:green;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.errmsg {
+	padding:10px;
+	margin:10px;
+	color:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+table {
+	border-collapse:collapse;
+	border:solid 1px;
+}
+
+table th {
+	border:solid 1px;
+	text-align:center;
+}
+
+img {
+	border:solid 1px;
+	width:50%;
+	height:auto;
+}
+
+.image {
+	border:solid 1px;
+	width:120px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.name {
+	border:solid 1px;
+	width:200px;
+	text-align:center;
+}
+
+.unitPrice {
+	border:solid 1px;
+	width:150px;
+	text-align:center;
+}
+
+.sum {
+	border:solid 1px;
+	width:150px;
+	text-align:center;
+}
+
+.amount {
+	border:solid 1px;
+	width:90px;
+	text-align:center;
+}
+
+.fix {
+	border:solid 1px;
+	width:70px;
+	text-align:center;
+}
+
+.delete {
+	border:solid 1px;
+	width:80px;
+	text-align:center;
+}
+.total {
+	margin-top:20px;
+	margin-left:500px;
+	font-weight:bold;
+	font-size:18px;
+	text-decoration:underline;
+	list-style:none;
+	display:inline-block;
+}
+
+.buy {
+	list-style:none;
+	display:inline-block;
+	margin-left:10px;
+}
+
+.continue {
+	list-style:none;
+	display:inline-block;
+	margin-left:10px;
+}
+
+#cartContents {
+	padding:10px;
+	margin:10px;
+	height:400px;
+	width:auto;
+	overflow-y:scroll;
+}
+
+#header {
+	font-size:30px;
+	padding-bottom:9px;
+	background:#1abc9c;
+	color:#fff;
+	margin:0 0 20px;
+	border-bottom:1px solid #DDD;
+}
+
+
+

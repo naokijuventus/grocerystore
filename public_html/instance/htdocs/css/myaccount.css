@@ -1,0 +1,59 @@
+body {
+	padding:0;
+	margin:0;
+	font:14px/2 "メイリオ",Verdana,"Hiragino Kaku Gothic ProN","游ゴシック",YuGothic,Meiryo,sans-serif;
+	color:#333;
+}
+
+#header {
+	font-size:30px;
+	padding-bottom:9px;
+	background:#1abc9c;
+	color:#fff;
+	margin:0 0;
+	border-bottom:1px solid #DDD;
+}
+
+#user,#history {
+	font-size:20px;
+	padding-top:20px;
+	padding-bottom:5px;
+	color:#000;
+	margin:0 0 20px;
+	border-bottom:1px solid #DDD;
+}
+
+#content {
+	font-size:15px;
+	margin-left:10px;
+	width:700px;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+td,th {
+	border:1px solid #DDD;
+	table-layout: fixed;
+	padding:10px;
+}
+
+.userInfo{
+	width:500px;
+}
+
+#purchaseHistory {
+	height:400px;
+	width::500px;
+	overflow-y:scroll;
+}
+
+#btn_return {
+	margin-top:10px;
+	margin-left:650px;
+	margin-bottom:50px;
+	font-size:20px;
+}
+
+

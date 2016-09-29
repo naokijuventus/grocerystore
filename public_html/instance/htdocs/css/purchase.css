@@ -1,0 +1,17 @@
+.purchaseMsg {
+	font:20px "メイリオ",Verdana,"Hiragino Kaku Gothic ProN","游ゴシック",YuGothic,Meiryo,sans-serif;
+	color:green;
+	font-weight:bold;
+}
+
+.continue {
+	list-style:none;
+	display:inline-block;
+	margin-left:250px;
+}
+
+.home {
+	list-style:none;
+	display:inline-block;
+	margin-left:10px;
+}

@@ -1,0 +1,165 @@
+body {
+	padding:0;
+	margin:0;
+	font:14px/2 "メイリオ",Verdana,"Hiragino Kaku Gothic ProN","游ゴシック",YuGothic,Meiryo,sans-serif;
+	color:#333;
+}
+
+#header {
+	background:#1abc9c;
+	font-size:30px;
+	color:#fff;
+}
+
+.container {
+	margin-top:0;
+	list-style: none;
+/*    margin-right:auto;
+	margin-left:auto; */
+}
+
+.goods {
+	margin-right:50px;
+	display:inline-block;
+}
+
+.LogIn {
+	display:inline-block;
+}
+
+.LonginHead{
+	display:inline-block;
+	margin-left:120px;
+	font-size:0.5em;
+	list-style: none;
+	font-weight: bold;
+}
+
+.LoginId {
+	display:inline-block;
+	font-size:0.5em;
+	list-style: none;
+	margin-left:10px;
+}
+
+.LoginPass {
+	display:inline-block;
+	font-size:0.5em;
+	list-style: none;
+	margin-left:5px;
+}
+
+.Loginbtn {
+	display:inline-block;
+	font-size:0.5em;
+	list-style: none;
+	margin-left:5px;
+}
+
+.HeaderItem{
+	display:inline-block;
+}
+
+.CreatA {
+	font-size:0.5em;
+	font-weight: bold;
+	margin-left:45px;
+	text-decoration: none;
+}
+
+#contetnts {
+	background:#f4f4f4;
+	padding:20px 0;
+}
+
+#contents::after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+section {
+	padding-bottom:40px;
+}
+
+h1 {
+	font-size:30px;
+	padding-bottom:9px;
+	margin:0 0 20px;
+	border-bottom:1px solid #DDD;
+}
+
+
+.grid-items li {
+	list-style-type:none;
+	width:235px;
+	margin:10px;
+	background:#FFF;
+	box-shadow: #CCC 0px 2px 3px;
+}
+
+.grid-items li img {
+	max-width:100%;
+}
+
+.grid-items li p {
+	padding:15px;
+}
+
+#main {
+	float:right;
+	width:70%;
+}
+
+#side {
+	float:left;
+	width:25%;
+	margin-left:20px;
+}
+
+#side .menuList {
+	padding:0;
+	border-top:solid 1px #DDD;
+}
+
+#side .menuList li {
+	list-style-type:none;
+	margin-left:10px;
+}
+
+.menuList h3:hover {
+	color:#00cc00;
+}
+
+#side .menuList li a {
+	display:block;
+	padding:10px 20px;
+	border-bottom:solid 1px #DDD;
+	color:#000;
+	text-decoration:none;
+}
+
+#side .menuList li a:hover {
+	background-color:rgba(255,255,255,0.3);
+}
+
+#footer {
+	background:#333;
+	color:#FFF;
+	text-align:center;
+	padding:10px;
+}
+
+.goodsName {
+	font-weight:bold;
+	font-size:16px;
+	margin:5px;
+	padding:0px;
+}
+
+.subs  li {
+	cursor:pointer;
+}
+
+
+
